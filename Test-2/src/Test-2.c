@@ -1,10 +1,10 @@
 /*
  ============================================================================
- Name        : Test-2.c
+ Name        : ENGG1003_Assessment 1_No Key Rotation Decryption
  Author      : David Procter
- Version     : 002
+ Version     : 004
  Copyright   : Copyright - David Procter
- Description : Testing rotation decryption with no key.
+ Description : Rotation decryption with no key.
  ============================================================================
  */
 
@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(void) {
+int nokeydecrypt(void) {
 
 	FILE *rot_nokey_in;		//File pointer declaration
 	FILE *rot_nokey_out;	//File pointer declaration
